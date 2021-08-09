@@ -47,10 +47,10 @@ function setup() {
 	World.add(world,bob5);
 
 	rope1 = new rope(bob1,roof,-80,0);
-	rope2 = new rope(bob1,roof,-40,0);
-	rope3 = new rope(bob1,roof,0,0);
-	rope4 = new rope(bob1,roof,40,0);
-	rope5 = new rope(bob1,roof,80,0);
+	rope2 = new rope(bob2,roof,-40,0);
+	rope3 = new rope(bob3,roof,0,0);
+	rope4 = new rope(bob4,roof,40,0);
+	rope5 = new rope(bob5,roof,80,0);
 	
 
 	Engine.run(engine);
